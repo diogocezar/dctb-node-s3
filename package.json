@@ -1,0 +1,17 @@
+{
+  "name": "dctb-node-s3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.453.0",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
